@@ -39,7 +39,7 @@ This project is a multilingual handwritten digit recognition system capable of i
   - Data Handling: `NumPy`, `Pandas`
   - Image Processing: `PIL`
 - **Tools**: Jupyter Notebook, Google Drive (for model hosting), GitHub
-
+---
 ## Features of the Web App
 
 - Language selection: `English`, `Hindi`, `Kannada`
@@ -61,14 +61,6 @@ This project is a multilingual handwritten digit recognition system capable of i
 - Dynamic preprocessing for different model types
 
 ---
-
-##  Future Scope
-
-- Expand to more Indian scripts (e.g., Tamil, Telugu, Bengali)
-- Implement advanced models like ResNet or Vision Transformers
-- Mobile app version with offline support
-- Real-time recognition from camera feed
-- Support for multi-digit recognition
 
 ## References
 
