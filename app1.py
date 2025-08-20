@@ -91,9 +91,12 @@ MODEL_LINKS = {
        # "CNN": "https://drive.google.com/uc?id=1gUHO0WbKPhYdqRxlKdkuB-G-1IZlWZgc",  #SD cnn model
         "CNN": "https://drive.google.com/uc?id=1U1GX0tcq5UAEm0a381_g1Kx3B2vPCkTJ", #Updated CNN model
       #   "CNN": "https://drive.google.com/uc?id=1QstlzxhzbqR3pueM6-_qc6MM2R-M600W",
-       # "ANN": "https://drive.google.com/uc?id=1YDdAsYiTHwXtYNoxREd2365w7cnAzlgR",
-      #  "ANN": "https://drive.google.com/uc?id=1fpdB7O6e0tqLR28_4myyp1QIgvLekmN4",  #Updated ANN model
-        "ANN": "https://drive.google.com/uc?id=1BXGTf45FvVQETRXOXCVdM8mb_xY61kdc",
+    
+        # "ANN": "https://drive.google.com/uc?id=1BXGTf45FvVQETRXOXCVdM8mb_xY61kdc",
+
+        "ANN": "https://drive.google.com/uc?id=1EvfTIA6eW9XTj8p82StGweLEKV32YH1N",
+    # https://drive.google.com/file/d/1EvfTIA6eW9XTj8p82StGweLEKV32YH1N/view?usp=sharing
+        
        # "RF": "https://drive.google.com/uc?id=14caVZGrLCvocRujCpKB53H2EvpkRDQ3w"
         "RF": "https://drive.google.com/uc?id=1xaSfAllLTgPJyG7z-9nHdyT0IdK2YHgX"
     },
@@ -183,6 +186,7 @@ if st.button("Predict"):
             st.error(f"Error: {e}")
     else:
         st.warning("Please draw or upload a digit.")
+
 
 
 
