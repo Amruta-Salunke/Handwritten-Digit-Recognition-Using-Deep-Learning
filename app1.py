@@ -5,7 +5,7 @@ import joblib
 import os
 import gdown
 from PIL import Image, ImageOps
-from utils.preprocessing import preprocess_image_for_model
+from preprocessing import preprocess_image_for_model
 from streamlit_drawable_canvas import st_canvas
 
 
@@ -212,6 +212,7 @@ if st.button("Predict"):
             st.error(f"Error: {e}")
     else:
         st.warning("Please draw or upload a digit.")
+
 
 
 
