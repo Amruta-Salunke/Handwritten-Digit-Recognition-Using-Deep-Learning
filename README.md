@@ -50,6 +50,9 @@ This project is a multilingual handwritten digit recognition system capable of i
 - Real-time prediction with output display
 - Error handling for invalid inputs
 
+## 🚀 Live Demo
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://handwritten-digit-recognition-using-deep-learning.streamlit.app/)
+
 ![WhatsApp Image 2025-08-01 at 5 14 45 PM](https://github.com/user-attachments/assets/f850f9c0-48e1-444c-ae2b-9f92fd919666)
 
 
